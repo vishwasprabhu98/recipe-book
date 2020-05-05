@@ -9,7 +9,7 @@ const allDishes = () => {
 			id: 0,
 			type: "nonveg",
 			category: "starter",
-			title: "HaraBara Kabab",
+			title: "Kabab",
 			ingredients: "300 gms chicken,2 tbsp of any pickle,Salt 2taste,1 tsp ginger garlic paste, 5 ml lemon juice, 1/4 tsp turmeric powder, 1/2 tsp chilly powder, 1/2 tsp coriander powder, 1/4 tsp garam masala powder",
 			description: "Marinate the chicken with all the above ingredients for min 30 mins, Deep fry till the chicken pieces are cooked.",
 			image: "img/kabab.jpg"
