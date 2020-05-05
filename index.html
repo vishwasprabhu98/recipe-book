@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<title>Recipe Book</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand m-auto" href="#"><img src="img/logo.png" height="41" width="41" alt="">&nbsp;&nbsp;<b>Recipe-Book</b></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+		
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav m-auto align-self-center">
+						<li class="nav-item active">
+							<a class="nav-link" href="#"><i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="recipes.html"><i class="fa fa-cutlery" aria-hidden="true"></i> Recipes</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categories
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="#starters" id="1">Starters</a>
+								<a class="dropdown-item" href="#maincourse" id="2">Main Course</a>
+								<a class="dropdown-item" href="#deserts" id="3">Deserts</a>
+								<a class="dropdown-item" href="#juices" id="4">Juices</a>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" data-toggle="modal" data-target="#exampleModal" style="cursor: default;"><i class="fa fa-user-circle-o" aria-hidden="true"></i> About</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<header class="jumbotron">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-6">
+						<h1><b>Recipe-Book</b></h1>
+						<p class=" d-sm-block">Are you looking for excitement in your cooking? Do you sometimes find yourself with limited ingredients and are out of cooking ideas?!Well, RecipeBook has the perfect solution for you!</p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="row row-content">
+				<div class="col-12 col-sm-7 align-self-center justify-content-center">
+					<img src="img/home.jpeg" class="img rounded" width="100%" alt="Responsive image">
+				</div>
+				<div class="col-12 col-sm-4 offset-sm-1">
+					<h1><b>Explore interesting Recipes!</b></h1>
+					<p class=" d-sm-block">  Discover recipes, videos, and how-tos based on the food you love and the friends you follow.
+						Recipe Book is the place for best recipes that can be made with ingredients you have in hand!</p>
+					</p>
+					<br>
+					<a href="recipes.html?id=0" class="btn btn-outline-secondary btn-lg btn-block" role="button" aria-pressed="true"><i class="fa fa-cutlery" aria-hidden="true"></i> Try Recipes!</a>					
+				</div>
+			</div>
+		</div>
+
+		<div class="container"  id="starters">
+			<div class="row row-content">
+				<div class="col-12 col-sm-7 align-self-center justify-content-center">
+					<img src="img/starter.png" class="img rounded" width="100%" alt="Responsive image">
+				</div>
+				<div class="col-12 col-sm-4 offset-sm-1">
+					<h1><b> Starters!</b></h1>
+					<p class=" d-sm-block">  A starter is a small quantity of food that is served as the first course of a meal. Try different variety of starters by clicking below!</p>
+					<br>
+					<a href="recipes.html?id=0" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true"><i class="fa fa-cutlery" aria-hidden="true"></i> Try Starters!</a>					
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="maincourse">
+			<div class="row row-content">
+				<div class="col-12 col-sm-7 align-self-center justify-content-center">
+					<img src="img/maincourse.png" class="img rounded" width="100%" alt="Responsive image">
+				</div>
+				<div class="col-12 col-sm-4 offset-sm-1">
+					<h1><b> Main Course!</b></h1>
+					<p class=" d-sm-block">  A Main course is the featured or primary dish in a meal consisting of several courses. The main ingredient is usually meat or fish; in vegetarian meals, the main course sometimes attempts to mimic a meat course. Try different variety of main course by clicking below!</p>
+					<br>
+					<a href="recipes.html?id=4" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true"><i class="fa fa-cutlery" aria-hidden="true"></i> Try Main Courses!</a>					
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="deserts">
+			<div class="row row-content">
+				<div class="col-12 col-sm-7 align-self-center justify-content-center">
+					<img src="img/desert.png" class="img rounded" width="100%" alt="Responsive image">
+				</div>
+				<div class="col-12 col-sm-4 offset-sm-1">
+					<h1><b> Desserts!</b></h1>
+					<p class=" d-sm-block">  
+						Dessert is a course that concludes a meal. The course usually consists of sweet foods, such as confections, and possibly a beverage such as dessert wine or liqueur; however, in the United States it may include coffee, cheeses, nuts, or other savory items regarded as a separate course elsewhere. Try different variety of Desserts by clicking below!</p>
+					<br>
+					<a href="recipes.html?id=6" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true"><i class="fa fa-cutlery" aria-hidden="true"></i> Try Desserts!</a>					
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="juices">
+			<div class="row row-content">
+				<div class="col-12 col-sm-7 align-self-center justify-content-center">
+					<img src="img/juice.png" class="img rounded" width="100%" alt="Responsive image">
+				</div>
+				<div class="col-12 col-sm-4 offset-sm-1">
+					<h1><b> Juices! </b></h1>
+					<p class=" d-sm-block">  Juice is a drink made from the extraction or pressing of the natural liquid contained in fruit and vegetables. It can also refer to liquids that are flavored with concentrate or other biological food sources, such as meat or seafood, such as clam juice. Try different variety of Juices by clicking below!</p>
+					<br>
+					<a href="recipes.html?id=8" class="btn btn-outline-primary btn-lg" role="button" aria-pressed="true"><i class="fa fa-cutlery" aria-hidden="true"></i> Try Juices!</a>					
+				</div>
+			</div>
+		</div>
+
+		
+		
+		<footer class="footer">
+			<div class="container" style="padding-top: 50px;">
+				<div class="row">             
+					<div class="col-4 col-sm-2 ">
+						<h5>Links</h5>
+						<ul class="list-unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="recipes.html"> Recipes</a></li>
+							<li><a data-toggle="modal" data-target="#exampleModal" style="cursor: default;">About</a></li>				
+							<li><a href="tel:8105441146">Contact</a></li>
+						</ul>
+					</div>
+					<div class="offset-1 col-7 col-sm-4">
+						<h5>Address</h5>
+						<address>
+						Kalladka<br>
+						Bantwal, Karnataka<br>
+						INDIA <br>
+						<span class="fa fa-phone"></span> +91 8105441146<br>
+						<span class="fa fa-envelope"></span> <a href="mailto:vishwasprabhu8@gmail.com"> vishwasprabhu8@gmail.com</a>
+						</address>
+					</div>
+					<div class="col-12 offset-1 col-sm align-self-center">
+						<a class="btn btn-social-icon btn-instagram" target="_blank" href="https://www.instagram.com/vishwas_prabhu"><span class="fa fa-instagram"></span></a>&nbsp;&nbsp;
+						<a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://www.linkedin.com/in/vishwasprabhu?trk=public_profile_samename_profile_profile-result-card_result-card_full-click&originalSubdomain=in"><span class="fa fa-linkedin"></span></a>&nbsp;&nbsp;
+						<a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/vishwas1212"><span class="fa fa-twitter"></span></a>&nbsp;&nbsp;
+						<a class="btn btn-social-icon btn-envelope" target="_blank" href="mailto:vishwasprabhu8@gmail.com"><span class="fa fa-envelope"></span></a>&nbsp;&nbsp;
+					</div>
+				</div>
+				<div class="row justify-content-center">  
+					<div class="col-auto m-auto">
+						<p><span class="fa fa-copyright"></span> Created with <i class="fa fa-heart"></i> By Vishwas Prabhu</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title" id="exampleModalLabel">About Me</h1>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<img src="img/mypic.png" width="100%" alt="Vishwas">
+					<h2>Vishwas Prabhu</h2>
+					<a class="btn btn-social-icon btn-instagram" target="_blank" href="https://www.instagram.com/vishwas_prabhu"><span class="fa fa-instagram"></span></a>&nbsp;&nbsp;
+					<a class="btn btn-social-icon btn-twitter" target="_blank" href="https://twitter.com/vishwas1212"><span class="fa fa-twitter"></span></a>&nbsp;&nbsp;					
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+	 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>
+
+
+	
+	
